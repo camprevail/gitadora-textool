@@ -337,7 +337,7 @@ namespace gitadora_textool
                     {
                         for (int i = 0; i < 256; i++)
                         {
-                            Color c = Color.FromArgb((byte)i, (byte)i, (byte)i);
+                            Color c = Color.FromArgb((byte)i, (byte)i, (byte)i), (byte)i);
                             entries[i] = c;
                         }
                     } else
